@@ -124,8 +124,8 @@ public class AlertViewController: UIViewController, CornerRadiusSettable {
 
     fileprivate var actions = [AlertAction]()
 
-    @IBOutlet private weak var titleLabel: UILabel!
-    @IBOutlet private weak var bodyLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var bodyLabel: UILabel!
     @IBOutlet private weak var firstButton: UIButton!
     @IBOutlet private weak var secondButton: UIButton!
 	@IBOutlet private weak var containerView: UIView!
